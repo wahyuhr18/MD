@@ -1,0 +1,53 @@
+Natom,1024
+VELOCITY VERLET SERIAL velet.x running...: omp_num_threads=1
+run time = 8.020 (sec)
+**************************************************************************
+LEAPFROG SERIAL leap.x running...: omp_num_threads=1
+run time = 7.955 (sec)
+**************************************************************************
+VELOCITY VERLET PARALEL veletcu.x  running...: blocksize64
+run time = 3.234 (sec)
+**************************************************************************
+LEAPFROG PARALEL leapcu.x running...: blocksize64
+run time = 3.153 (sec)
+**************************************************************************
+Natom,2048
+VELOCITY VERLET SERIAL velet.x running...: omp_num_threads=1
+run time = 32.940 (sec)
+**************************************************************************
+LEAPFROG SERIAL leap.x running...: omp_num_threads=1
+run time = 31.963 (sec)
+**************************************************************************
+VELOCITY VERLET PARALEL veletcu.x  running...: blocksize64
+run time = 11.222 (sec)
+**************************************************************************
+LEAPFROG PARALEL leapcu.x running...: blocksize64
+run time = 11.162 (sec)
+**************************************************************************
+Natom,4096
+VELOCITY VERLET SERIAL velet.x running...: omp_num_threads=1
+run time = 126.469 (sec)
+**************************************************************************
+LEAPFROG SERIAL leap.x running...: omp_num_threads=1
+run time = 124.779 (sec)
+**************************************************************************
+VELOCITY VERLET PARALEL veletcu.x  running...: blocksize64
+run time = 41.005 (sec)
+**************************************************************************
+LEAPFROG PARALEL leapcu.x running...: blocksize64
+run time = 41.571 (sec)
+**************************************************************************
+Natom,8192
+VELOCITY VERLET SERIAL velet.x running...: omp_num_threads=1
+run time = 501.583 (sec)
+**************************************************************************
+LEAPFROG SERIAL leap.x running...: omp_num_threads=1
+run time = 498.057 (sec)
+**************************************************************************
+VELOCITY VERLET PARALEL veletcu.x  running...: blocksize64
+run time = 161.204 (sec)
+**************************************************************************
+LEAPFROG PARALEL leapcu.x running...: blocksize64
+run time = 160.770 (sec)
+**************************************************************************
+
